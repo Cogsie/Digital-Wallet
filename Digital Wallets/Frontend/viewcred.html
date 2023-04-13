@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Wallets</title>
+    <link rel="stylesheet" href="viewcred.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body onload="LoadDetails()">
+
+    <div class="container">
+
+        <header>
+            <img src="/Frontend/images/Digital Wallet-logo.jpg" width="125" height="70" alt="Logo for Digital Wallets"><br>
+            <a href="https://www.staffs.ac.uk/course/cyber-security-bsc" target="_blank" navbar__logo>Staffordshire
+                University Cyber Security<br>Group B2 Digital Wallets</a><br>
+        </header>
+
+        <nav class="navbar">
+            <div class="navbar__container">
+                <div class="navbar__toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar__menu">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__links">HOME</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="about.html" class="navbar__links">ABOUT</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="wallet.html" class="navbar__links">WALLET</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="contact.html" class="navbar__links">CONTACT</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="map.html" class="navbar__links">MAP</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="terms_of_use.html" class="navbar__links">TERMS&nbsp;OF&nbsp;USE</a>
+                    </li>
+                    <li class="navbar__btn">
+                        <a href="get_verified.html" class="button">GET&nbsp;VERIFIED</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <main>
+            <div class="wrapper">
+    
+            
+        
+                <article class="wallet-info-2" id="CredentialInfo">
+                    <h1 id="wallet-qr">Credential Details</h1>
+                    
+                    <label id="StudentID">StudentID</label><br>
+                    <label id="StudentFName">StudentFName</label><br>
+                    <label id="StudentLName">StudentLName</label><br>
+                    <label id="Email">Email</label><br>
+                    <label id="Course">Course</label><br>
+                    <label id="Grade">Grade</label><br>
+                    
+                    <br><br>
+
+                    <!-- <button type="button" id="gen-btn" onclick="showCred()">Show</button>
+
+                    <div id="qr-container">
+                        <div id="square"></div>
+                        <a href="viewcred.html">
+                        <button type="button" id="qr-exit-btn" onclick="exitQr()">Exit</button>
+                        </a>
+                        <button id="gen-qr-btn" onclick="generateQR()" >Get QR</button>
+            
+                        
+                    </div>
+                
+                    <div id="imgBox">
+                        <img src="" id="qrImage">
+                   </div> -->
+                    
+                </div>
+                
+                
+                <script>
+                
+                //     let imgBox = document.getElementById("imgBox");
+                //     let qrImage = document.getElementById("qrImage");
+                //     let qrText = document.getElementById("qrText");
+                
+                // function generateQR(){
+                //     if(document.getElementById("gen-qr-btn").click){
+                //     qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrText.value;
+                //     imgBox.classList.add("show-img");
+                // }else{
+                //     qrText.classList.add("show-img");
+                    
+                // }
+                
+                // }
+                 </script>
+                         
+                    
+        
+        
+                 </article>
+        
+            </div>
+        </main>
+
+        <footer>
+            <a href="terms_of_use.html">TERMS OF USE</a><br><br>
+            <img src="/Frontend/images/Staffs.png" width="12" height="12"><a href="https://www.staffs.ac.uk/" target="_blank">
+                Staffordshire
+                University</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/Frontend/images/SS.png" width="12"
+                height="12"><a href="https://www.synectics-solutions.com/" target="_blank"> Synectics
+                Solutions</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="/Frontend/images/in.png" width="12" height="12"><a
+                href="https://www.linkedin.com/" target="_blank"> LinkedIn</a><br><br>
+            <img src="/Frontend/images/Digital Wallet-logo.jpg" width="12" height="12" alt="Logo for Digital Wallets">
+            <a href="index.html">DIGITAL WALLETS 2023. All rights reserved.</a>
+        </footer>
+
+    </div>
+    <script src="java_script.js"></script>
+</body>
+
+</html>

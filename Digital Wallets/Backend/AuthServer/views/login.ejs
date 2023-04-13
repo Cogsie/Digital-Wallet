@@ -1,0 +1,9 @@
+    <form autocomplete="off" action="/interaction/<%-uid%>/auth" method="post">
+      <input required type="text" name="login" placeholder="Enter any login"  if (!params.login_hint) { %autofocus="on"% } else  %>>
+      <input required type="password" name="password" placeholder="and password"  if (params.login_hint) { %autofocus="on"% } >  
+      <button type="submit" class="login login-submit">Sign-in</button>
+      <% if (error) { %>
+        <p>Invalid Details!</p>
+      <% } %>
+
+    </form>

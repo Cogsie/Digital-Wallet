@@ -1,0 +1,7 @@
+1. Open the Digital Wallets folder
+2. Right click the empty space in the folder and click on Open in terminal
+3. Enter node ./Backend/AuthServer/AuthServer.js
+4. repeat step 2
+5. Enter node ./Backend/RelyingParty/RelyingParty.js
+6. Both terminals should display 'Running!'
+7. Launch the live server for the front end from the Digital Wallets folder. If you're running VSC, right click the empty space for the folder and click on 'Open with Code', this might be under 'Show more options'
